@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="#FAFAD2"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tvEditTitle"
+                android:text="메모 제목"
+                android:textSize="15pt"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <EditText
+                android:id="@+id/etEditTitle"
+                android:textSize="12pt"
+                android:singleLine="true"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        <TextView
+                android:id="@+id/tvEditContent"
+                android:text="메모 내용"
+                android:textSize="15pt"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <EditText
+                android:id="@+id/etEditContent"
+                android:textSize="10pt"
+                android:gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/btEditSave"
+                android:text="저장"
+                android:textSize="15pt"
+                android:drawableLeft="@drawable/ic_save_black_24dp"
+                android:background="#FFD700"
+                android:layout_weight="1"
+                android:layout_margin="2pt"
+                android:padding="2pt"
+                android:onClick="onClickSaveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/btEditCancel"
+                android:text="취소"
+                android:textSize="15pt"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/ic_clear_black_24dp"
+                android:layout_weight="1"
+                android:layout_margin="2pt"
+                android:padding="2pt"
+                android:onClick="onClickCancelBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>>
+</LinearLayout>
