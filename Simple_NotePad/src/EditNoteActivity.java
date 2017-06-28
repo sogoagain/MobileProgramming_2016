@@ -1,4 +1,4 @@
-package io.github.sogoesagain.simple_notepad;
+package io.github.sogoagain.simple_notepad;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * Created by sogoesagain on 2016. 10. 29..
+ * Created by sogoagain on 2016. 10. 29..
  */
 public class EditNoteActivity extends AppCompatActivity {
 

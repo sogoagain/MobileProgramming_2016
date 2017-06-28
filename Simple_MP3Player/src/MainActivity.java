@@ -1,4 +1,4 @@
-package io.github.sogoesagain.simple_mp3player;
+package io.github.sogoagain.simple_mp3player;
 
 import android.Manifest;
 import android.app.ActivityManager;

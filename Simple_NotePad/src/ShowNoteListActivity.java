@@ -1,4 +1,4 @@
-package io.github.sogoesagain.simple_notepad;
+package io.github.sogoagain.simple_notepad;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

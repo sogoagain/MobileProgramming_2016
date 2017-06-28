@@ -1,4 +1,4 @@
-package io.github.sogoesagain.simple_mp3player;
+package io.github.sogoagain.simple_mp3player;
 
 import android.app.*;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by sogoesagain on 2016. 11. 27..
+ * Created by sogoagain on 2016. 11. 27..
  */
 
 public class MusicService extends Service {

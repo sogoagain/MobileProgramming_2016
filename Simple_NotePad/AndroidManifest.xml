@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="io.github.sogoesagain.simple_notepad">
+          package="io.github.sogoagain.simple_notepad">
 
     <application
             android:allowBackup="true"

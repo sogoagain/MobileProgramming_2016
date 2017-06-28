@@ -1,4 +1,4 @@
-package io.github.sogoesagain.simple_notepad;
+package io.github.sogoagain.simple_notepad;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -17,7 +17,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 /**
- * Created by sogoesagain on 2016. 10. 29..
+ * Created by sogoagain on 2016. 10. 29..
  */
 public class ViewNoteActivity extends AppCompatActivity {
 
